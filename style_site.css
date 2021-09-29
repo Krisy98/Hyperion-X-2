@@ -1,0 +1,61 @@
+body
+{ 
+background-image: url(wallpaper.png)
+}
+
+header
+{text-align: center;
+color: white;
+}
+
+h1
+{
+text-align: center;
+color: Silver;
+}
+
+p
+{
+font-family: verdana;
+font-style: new times roman;
+color: silver;
+width: 70%;
+border: 1px solid black;
+text-align: justify;
+padding: 5px; 
+margin: 9px;
+}
+
+footer
+{
+font-style: comic sans ms;
+text-align: center;
+color: silver;
+width: 100%;
+border: 1px solid black;
+text-align: justify;
+padding: 9px; 
+margin: 9px;
+}
+
+aside
+{
+text-align: right;
+font-family: verdana;
+font-style: comic sans ms;
+color: white;
+width: 20%;
+border: 1px solid black;
+padding: 9px; 
+margin: 9px;
+}
+
+#conteneur
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.element:nth-child(2)
+{
+    flex: 1;
+}
